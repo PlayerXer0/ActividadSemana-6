@@ -1,0 +1,27 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/ETNombreFoto"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre de la foto"/>
+
+    <Button
+        android:id="@+id/BTAceptar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="HACER FOTO"/>
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:contentDescription="Vista de la Foto"
+        android:scaleType="centerCrop"
+        android:src="@drawable/cr7" />
+</LinearLayout>
